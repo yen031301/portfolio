@@ -8,14 +8,20 @@ body{
     font-size: 16px;
     color: beige;
 }
-hero{
+.hero{
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
+
     justify-content: center;
     align-items: center;
+
+    background-image: url("assets/img/web.png");
 }
 h1{
-    font-size: calc(2rem +3vw);
+    font-size: calc(2rem+3vw);
+}
+h2{
+    font-size: calc(1.5rem+3vw);
 }
