@@ -1,0 +1,21 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+:root {
+  --ff-primary: Inter, sans-serif;
+  --ff-titles: Forum, serif;
+
+  --clr-primary: hsl(0, 0%, 2%);
+  --clr-secondary: hsl(0, 0%, 80%);
+  --clr-accent: hsl(353, 60%, 60%);
+}
+/* -- = costum properties */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--ff-primary);
+}
+
+#wrapper {
+  flex-grow: 1;
+}

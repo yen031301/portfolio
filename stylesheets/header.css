@@ -1,0 +1,26 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.main-nav {
+  display: flex;
+  gap: .25em 1em;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--clr-primary);
+}
+
+.main-nav a:hover {
+  color: var(--clr-accent);
+}
+
+
+
+.logo {
+  width: clamp(50px, 50px + 1vw, 100px);
+}

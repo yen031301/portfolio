@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- use !+tab to automatically filling the structure -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Avril Yen</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Example</title>
+  <script src="/lib/jquery-3.6.1.min.js"></script>
+  <script src="/scripts/import.js"></script>  
 </head>
 
 <body>
-    <div class="hero">
-        <div class="hero-text">       
-        <h1>Avril's Portfolio</h1>
-        <h2>Hello!</h2>
-        <!-- <img src="assets/img/web.png" alt=""> -->
-        </div>
-    </div>
-
+  <div id="wrapper">
+    <div id="header-container"></div>
+    
+    <main>
+      <div class="thumbnail-gallery">
+        <a class="gallery-item" href="/works/project1">
+          <div class="overlay">Project 1</div>
+          <img src="/assets/thumbnails/neontestines-thumb.jpg" alt="Project 1 thumbnail">
+        </a>
+        <a class="gallery-item" href="/works/project2">
+          <div class="overlay">Project 2</div>
+          <img src="/assets/thumbnails/circles-thumb.jpg" alt="Project 2 thumbnail">
+        </a>
+        <a class="gallery-item" href="/works/project1">
+          <div class="overlay">Project 3</div>
+          <img src="/assets/thumbnails/shard-thumb.jpg" alt="Project 3 thumbnail">
+        </a>
+      </div>
+    </main>
+  </div>
 </body>
 
 </html>
