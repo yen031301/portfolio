@@ -1,14 +1,14 @@
 @font-face {
-  font-family: Forum;
-  src: url('/assets/fonts/Forum/Forum-Regular.ttf');
+  font-family: Nunito;
+  src: url('/assets/fonts/nunito/Nunito-Regular.ttf');
   font-weight: 400;
 }
 
-/* font-family: 'Forum', serif; */
+/* font-family: 'Nunito', serif; */
 
 @font-face {
   font-family: Inter;
-  src: url('/assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf');
+  src: url('/assets/fonts/nunito/Nunito-Regular.ttf');
   font-weight: 100 900;
 }
 
