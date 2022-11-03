@@ -22,5 +22,5 @@
 
 
 .logo {
-  width: clamp(50px, 50px + 1vw, 100px);
+  width: clamp(50px, 50px + 1vw, 50px);
 }
