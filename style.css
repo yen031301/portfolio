@@ -60,6 +60,7 @@ main {
   padding: 5px 10px;
   margin: 5px; 
   border-radius: 2em;
+  background-color: var(--clr-accent2);
 
 }
 
@@ -74,6 +75,7 @@ h2{
   padding: .5rem;
   border-style: solid;
   border-radius: 2em;
+  background-color: var(--clr-accent2);
 }
 
 .thumbnail-gallery {
@@ -83,7 +85,7 @@ h2{
   justify-content: space-between;
   border-style: solid ;
   border-radius: 30px;
-
+  /* background-color: var(--clr-box-bg); */
 }
 
 .gallery-item {
