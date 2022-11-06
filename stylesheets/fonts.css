@@ -1,15 +1,14 @@
 @font-face {
   font-family: Nunito;
-  src: url('/assets/fonts/nunito/Nunito-Regular.ttf');
+  src: url('/assets/fonts/nunito/Nunito-Bold.ttf');
   font-weight: 400;
 }
 
-/* font-family: 'Nunito', serif; */
+/* font-family: 'Nunito', sans; */
 
 @font-face {
-  font-family: Inter;
-  src: url('/assets/fonts/nunito/Nunito-Regular.ttf');
-  font-weight: 100 900;
+  font-family: Nunito;
+  src: url('/assets/fonts/Nunito/Nunito-Bold.ttf');
+  font-weight: 400;
 }
 
-/* font-family: 'Inter', sans-serif; */
