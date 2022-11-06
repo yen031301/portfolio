@@ -13,13 +13,13 @@ main {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 
 .hero-img {
   max-width: 80rem;
-  height: 600px;
+  height: 650px;
   display: inline-block;
   overflow: hidden;
   float: left;
@@ -37,7 +37,7 @@ main {
 
 .hero-description {
   width: 20rem;
-  height: 600px;
+  height: 650px;
   background: #dbd2c8;
   float: left;
   padding: 70px 45px;
@@ -47,7 +47,7 @@ main {
 .hero-skills ul{
   padding: 0;
   margin: 0;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .hero-skills ul li {
@@ -66,6 +66,12 @@ main {
   margin: 4rem 0;
   padding: 1rem;
 }
+
+h2{
+  font-size: 1rem;
+  padding: .5rem;
+}
+
 .thumbnail-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
