@@ -1,8 +1,8 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
 :root {
-  --ff-primary: Inter, sans-serif;
-  --ff-titles: Forum, serif;
+  --ff-primary: Nunito, sans-serif;
+  --ff-titles: Nunito, sans-serif;
 
   --clr-primary: black;
   --clr-secondary: #efe7df;
@@ -14,8 +14,9 @@ body {
   display: flex;
   flex-direction: column;
   font-family: var(--ff-primary);
-  background-color: #efe7df;
+  background: #efe7df;
 }
+
 
 #wrapper {
   flex-grow: 1;

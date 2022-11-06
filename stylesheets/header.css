@@ -1,16 +1,17 @@
 .main-header {
-  margin: auto;
+  margin: 0 auto 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1em;
   max-width: 1300px;
   background-color: #efe7df;
+  
 }
 
 .main-nav {
   display: flex;
-  gap: .25em 2em;
+  gap: .25em 1em;
 }
 
 .main-nav a {
@@ -21,8 +22,6 @@
 .main-nav a:hover {
   color: var(--clr-accent);
 }
-
-
 
 .logo {
   width: 150px;
