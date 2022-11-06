@@ -14,6 +14,6 @@ $('#header-container').load('/components/header.html', function(){
 
 // FOOTER
 
-const footer = `<footer>&copy; ${new Date().getFullYear()} Portfolio Example</footer>`
+const footer = `<footer>&copy; ${new Date().getFullYear()} Avril's Portfolio | avrilyen01@gmail.com </footer>`
 
 $('body').append(footer)
