@@ -97,7 +97,7 @@ h2{
   margin: .5rem;
   border-style: solid ;
   border-radius: 30px;
-  /* background-color: var(--clr-box-bg); */
+  border-color: black;
   
 }
 
