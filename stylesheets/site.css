@@ -14,6 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: var(--ff-primary);
+  background-color: #efe7df;
 }
 
 #wrapper {
