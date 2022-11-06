@@ -24,5 +24,10 @@
 
 
 .logo {
-  width: clamp(50px, 50px + 1vw, 50px);
+  width: 150px;
+  /* width: clamp(50px, 50px + 1vw, 50px); */
+}
+
+.logo img{
+  width: 100%;
 }
