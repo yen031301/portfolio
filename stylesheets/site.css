@@ -6,7 +6,7 @@
 
   --clr-primary: hsl(0, 0%, 2%);
   --clr-secondary: hsl(0, 0%, 80%);
-  --clr-accent: hsl(353, 60%, 60%);
+  --clr-accent: #a282ff;
 }
 /* -- = costum properties */
 body {

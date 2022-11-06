@@ -9,7 +9,7 @@
 
 .main-nav {
   display: flex;
-  gap: .25em 1em;
+  gap: .25em 2em;
 }
 
 .main-nav a {
