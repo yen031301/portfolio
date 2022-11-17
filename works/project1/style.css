@@ -7,13 +7,11 @@
     width: 100%;
   }
   
+  /*Banner Img*/
   .banner-container {
     margin: auto;
     display: flex;
-    justify-content: space-between;
-    margin: 1.5rem;
-    border-style: solid;
-    border-radius: 30px;
+    justify-content: space-between;  
   }
   
   
@@ -25,9 +23,14 @@
     border-radius: 30px 30px 30px 30px;
     min-height: 100%;
     width: 100%;
-    object-fit: cover
+    object-fit: cover;
+    margin: 1.5rem;
+    border-style: solid;
+    border-radius: 30px;
     
   }
+
+/* Banner Description */
 
   .banner-description {
     margin: auto;
@@ -40,6 +43,7 @@
     line-height: 3rem;
     padding-bottom: 1rem;
   }
+/* Context Information */
 
   .info {
     margin: auto;
@@ -60,3 +64,14 @@
     line-height: 1.3rem;
     padding-bottom: 2.5rem;
   }
+
+  /*Gallery*/
+.gallery-container {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;  
+      }
+
+      .gallery-container img {
+
+      }
