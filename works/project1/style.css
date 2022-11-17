@@ -32,9 +32,13 @@
   .banner-description {
     margin: auto;
     justify-content: space-between;
-    margin: 2rem;
-    margin-bottom: 4rem;
-    line-height: 1.2em;
+    margin: 2rem 2rem 6rem 2rem;
+  }
+  .banner-description h1 {
+    font-family: var(--ff-titles);
+    font-size: 3rem;
+    line-height: 3rem;
+    padding-bottom: 1rem;
   }
 
   .info {
@@ -42,5 +46,17 @@
     justify-content: space-between;
     margin: 2rem;
     margin-bottom: 4rem;
-    line-height: 1.2em;
+    line-height: 1.2rem;
+  }
+
+  .info h2 {
+    font-size: 1.2rem; 
+    padding-bottom: 0.5rem;
+  }
+
+  .info p {
+    font-family: var(--ff-paragraph);
+    font-size: 0.9 rem;
+    line-height: 1.3rem;
+    padding-bottom: 2.5rem;
   }

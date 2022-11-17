@@ -12,3 +12,13 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: Nunito;
+  src: url('/assets/fonts/Nunito/Nunito-Medium.ttf');
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url('/assets/fonts/Nunito/Nunito-Regular.ttf');
+}
+
