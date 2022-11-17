@@ -3,28 +3,26 @@
   }
   main {
     max-width: 100rem;
-    margin: auto;
-    width: 100%;
+    margin: 1.5rem;
   }
-  
+
   /*Banner Img*/
   .banner-container {
     margin: auto;
     display: flex;
     justify-content: space-between;  
+    margin-bottom: 2rem;
   }
   
   
   .banner-img {
     width: 100%;
-    height: 63vw;
+    height: 60vw;
     display: inline-block;
     overflow: hidden;
     border-radius: 30px 30px 30px 30px;
     min-height: 100%;
-    width: 100%;
     object-fit: cover;
-    margin: 1.5rem;
     border-style: solid;
     border-radius: 30px;
     
@@ -35,7 +33,7 @@
   .banner-description {
     margin: auto;
     justify-content: space-between;
-    margin: 2rem 2rem 6rem 2rem;
+    margin: 0rem 1rem 6rem 1rem;
   }
   .banner-description h1 {
     font-family: var(--ff-titles);
@@ -46,10 +44,8 @@
 /* Context Information */
 
   .info {
-    margin: auto;
+    margin: 0rem 1rem 4rem 1rem;
     justify-content: space-between;
-    margin: 2rem;
-    margin-bottom: 4rem;
     line-height: 1.2rem;
   }
 
@@ -60,18 +56,65 @@
 
   .info p {
     font-family: var(--ff-paragraph);
-    font-size: 0.9 rem;
-    line-height: 1.3rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
     padding-bottom: 2.5rem;
   }
 
   /*Gallery*/
 .gallery-container {
-        margin: auto;
-        display: flex;
-        justify-content: space-between;  
-      }
+    margin: auto;
+    /* display: flex;
+    justify-content: space-between;   */
+    margin-bottom: 4rem;
+     }
 
-      .gallery-container img {
+ .gallery-container img {
+    width: 100%;
+    height: 75vw;
+    display: inline-block;    overflow: hidden;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border-style: solid;
+    border-radius: 30px;
+  
+    }
 
-      }
+    /* Behind the Scenes */
+.bts-text {
+    margin: 0rem 1rem 4rem 1rem;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    line-height: 1.2rem; 
+     }
+
+.bts-text h2 {
+     font-size: 1.2rem; 
+     padding-bottom: 0.5rem;
+    }
+    
+ .bts-text p {
+     font-family: var(--ff-paragraph);
+     font-size: 0.9rem;
+     line-height: 1.2rem;
+     padding-bottom: 2.5rem;
+     }
+
+     /*bts-gallery*/
+     
+.bts-gallery-container {
+     
+     }
+
+ .bts-gallery-container img {
+    width: 100%;
+    height: 75vw;
+    display: inline-block;    overflow: hidden;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border-style: solid;
+    border-radius: 30px;
+  
+    }
