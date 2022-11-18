@@ -1,25 +1,23 @@
 * {
-    box-sizing: border-box;
   }
   main {
-    max-width: 100rem;
     margin: 1.5rem;
+    display: flex;
+    flex-flow: column; 
+    align-items: center;
   }
 
   /*Banner Img*/
   .banner-container {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;  
+    margin: auto; 
     margin-bottom: 2rem;
   }
   
   
   .banner-img {
-    width: 100%;
+    width: 1500px;
     height: 60vw;
-    display: inline-block;
-    overflow: hidden;
+    max-height: 700px;
     border-radius: 30px 30px 30px 30px;
     min-height: 100%;
     object-fit: cover;
@@ -32,8 +30,9 @@
 
   .banner-description {
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0rem 1rem 6rem 1rem;
+    max-width: 700px;
   }
   .banner-description h1 {
     font-family: var(--ff-titles);
@@ -44,14 +43,19 @@
 /* Context Information */
 
   .info {
+    display: flex;
+    flex-flow: column;
     margin: 0rem 1rem 4rem 1rem;
-    justify-content: space-between;
     line-height: 1.2rem;
+    max-width: 700px;
+    
   }
 
   .info h2 {
     font-size: 1.2rem; 
     padding-bottom: 0.5rem;
+
+    
   }
 
   .info p {
@@ -59,25 +63,28 @@
     font-size: 0.9rem;
     line-height: 1.2rem;
     padding-bottom: 2.5rem;
+
+    
   }
 
   /*Gallery*/
 .gallery-container {
     margin: auto;
-    /* display: flex;
-    justify-content: space-between;   */
     margin-bottom: 4rem;
+    max-width: 1500px;
      }
 
  .gallery-container img {
-    width: 100%;
+    min-width: 100%;
     height: 75vw;
-    display: inline-block;    overflow: hidden;
+    max-height: 1125px;
+    display: inline-block;    
+    overflow: hidden;
     border-radius: 30px;
     object-fit: cover;
     margin-bottom: 1.5rem;
     border-style: solid;
-    border-radius: 30px;
+  
   
     }
 
@@ -87,11 +94,13 @@
     justify-content: space-between;
     margin-bottom: 1.5rem;
     line-height: 1.2rem; 
+    max-width: 1500px;
      }
 
 .bts-text h2 {
      font-size: 1.2rem; 
      padding-bottom: 0.5rem;
+     max-width: 700px;
     }
     
  .bts-text p {
@@ -99,22 +108,26 @@
      font-size: 0.9rem;
      line-height: 1.2rem;
      padding-bottom: 2.5rem;
+     max-width: 700px;
      }
 
      /*bts-gallery*/
      
 .bts-gallery-container {
+    max-width: 1500px;
+    margin: auto;
      
      }
 
  .bts-gallery-container img {
     width: 100%;
     height: 75vw;
-    display: inline-block;    overflow: hidden;
+    max-height: 1125px;
+    display: inline-block;    
+    overflow: hidden;
     border-radius: 30px;
     object-fit: cover;
     margin-bottom: 1.5rem;
     border-style: solid;
-    border-radius: 30px;
   
     }
