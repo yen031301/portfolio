@@ -65,8 +65,9 @@ main {
 
 /* GALLERY */
 .gallery{
-  margin: 1rem 0;
+  margin: auto;
   padding: 1rem;
+  max-width: 100rem;
 }
 
 h2{
