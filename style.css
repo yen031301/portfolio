@@ -15,7 +15,7 @@ main {
   justify-content: space-between;
   margin: 1.5rem;
   border-style: solid;
-  border-radius: 30px;
+  border-radius: 30px;margin-bottom: 10rem;
 }
 
 
@@ -70,7 +70,17 @@ main {
   max-width: 100rem;
 }
 
-h2{
+.title1 h2{
+  font-size: 1rem;
+  padding: .5rem;
+  padding-left: 1rem;
+  margin: .5rem;
+  border-style: solid;
+  border-radius: 2em;
+  background-color: var(--clr-accent);
+}
+
+.title2 h2{
   font-size: 1rem;
   padding: .5rem;
   padding-left: 1rem;
@@ -79,6 +89,8 @@ h2{
   border-radius: 2em;
   background-color: var(--clr-accent2);
 }
+
+
 
 .thumbnail-gallery {
   display: grid;
@@ -133,3 +145,4 @@ h2{
   position: relative;
   z-index: 0;
 }
+
