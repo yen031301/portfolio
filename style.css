@@ -16,19 +16,26 @@ main {
 .vid video{
   width: 100%;
   /* border-radius:30px; */
-  margin-bottom: 2rem;
+  margin-bottom: 10rem;
 }
 
 /* HERO SECTION */
+.hero {
+  margin: auto;
+  max-width: 90vw;
+  
 
+}
 .hero .hero-container {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  margin: 1.5rem;
   border-style: solid;
   border-radius: 30px;
   margin-bottom: 10rem;
+  max-height: max-content;
+  width: 100%;
+  max-width: 1200px;
 }
 .hero-description h1{
   margin-bottom: 1rem;
@@ -47,7 +54,6 @@ main {
 }
 
 .hero-img {
-  height: 650px;
   display: inline-block;
   overflow: hidden;
   border-radius: 30px 0 0 30px;
@@ -57,14 +63,8 @@ main {
   
 }
 
-/* .hero-img{
-
-  
- } */
-
 .hero-description {
   width: 20rem;
-  height: 650px;
   background: #dbd2c8;
   padding: 70px 45px;
   border-radius: 0 30px 30px 0;
@@ -92,7 +92,6 @@ main {
 .gallery{
   margin: auto;
   padding: 1rem;
-  width: 100rem;
   max-width: 1200px;
   margin-bottom: 3rem;
 }
