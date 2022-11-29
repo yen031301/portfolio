@@ -7,6 +7,18 @@ main {
   width: 100%;
 }
 
+/* Video */
+.vid{ 
+  margin: auto;
+  width: 100vw;
+  max-width: 1800px;
+}
+.vid video{
+  width: 100%;
+  /* border-radius:30px; */
+  margin-bottom: 2rem;
+}
+
 /* HERO SECTION */
 
 .hero .hero-container {
@@ -15,7 +27,8 @@ main {
   justify-content: space-between;
   margin: 1.5rem;
   border-style: solid;
-  border-radius: 30px;margin-bottom: 10rem;
+  border-radius: 30px;
+  margin-bottom: 10rem;
 }
 .hero-description h1{
   margin-bottom: 1rem;
@@ -81,7 +94,8 @@ main {
 .gallery{
   margin: auto;
   padding: 1rem;
-  max-width: 100rem;
+  width: 100rem;
+  max-width: 1200px;
   margin-bottom: 3rem;
 }
 
