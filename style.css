@@ -17,7 +17,21 @@ main {
   border-style: solid;
   border-radius: 30px;margin-bottom: 10rem;
 }
-
+.hero-description h1{
+  margin-bottom: 1rem;
+}
+.hero-description h2 {
+  font-family: var(--ff-paragraph);
+   font-size: 0.9rem;
+   line-height: 1.2rem;
+   
+}
+.hero-description p {
+    font-family: var(--ff-paragraph);
+     font-size: 0.9rem;
+     line-height: 1.2rem;
+     margin-bottom: 2rem;
+}
 
 .hero-img {
   width: 100%;
